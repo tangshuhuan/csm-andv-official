@@ -1,0 +1,61 @@
+
+.clip{
+  font-size: 56px !important;
+}
+.VPNavBar{
+  background-color: var(--vp-nav-bg-color);
+}
+.VPNavBarTitle span{
+  font-size: 16px;
+}
+
+
+
+.VPContent .VPDoc .container .content {
+  padding: 0;
+}
+.VPNav {
+  z-index: 41 !important;
+}
+.VPSidebar {
+  z-index: 40 !important;
+}
+.VPSidebar.open {
+  z-index: 42 !important;
+}
+.VPContent .VPDoc.has-aside .content-container {
+  max-width: 1200px;
+}
+
+.VPSidebarItem.level-0{
+  padding-bottom: 0px !important;
+}
+
+@media (min-width: 1280px) {
+  .VPDoc .aside {
+      display: none !important;
+  }
+}
+
+.vp-doc table{
+  margin: 0px;
+  border-collapse: unset
+}
+
+.vp-doc th, .vp-doc td{
+  border: 0px;
+}
+.vp-doc ul{
+  margin: 0px;
+  padding: 0px;
+}
+.vp-doc li + li {
+  margin-top: 0px;
+  text-decoration: none;
+}
+.vp-doc a {
+  text-decoration: unset;
+}
+/* pre{
+  background: transparent;
+} */
