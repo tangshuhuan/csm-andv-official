@@ -39,7 +39,8 @@
 
 .vp-doc table{
   margin: 0px;
-  border-collapse: unset
+  border-collapse: unset;
+  display: revert;
 }
 
 .vp-doc th, .vp-doc td{
