@@ -1,4 +1,10 @@
 
+:root{
+  --vp-c-brand-1: #1890FF;
+  --vp-button-brand-bg: #1890FF;
+}
+
+
 .clip{
   font-size: 56px !important;
 }
